@@ -49,6 +49,19 @@ p {
     border-radius: #A4BC46;
 }
 
+
+/* Production  Seaction Menu*/
+
 .jacket-card {
     border: 0 !important;
+}
+
+#contactus {
+    background-color: #363958;
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
+    height: 250px;
 }
