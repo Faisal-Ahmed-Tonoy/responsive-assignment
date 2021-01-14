@@ -11,13 +11,6 @@ h1 {
     ;
 }
 
-h2 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 48px;
-}
-
 p {
     color: #3E3E3E;
     margin: 10px 0;
@@ -25,6 +18,21 @@ p {
     font-weight: normal;
     font-size: 16px;
     line-height: 26px;
+}
+
+.btn {
+    background-color: #A4BC46;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #fabe4c;
+}
+
+.fas {
+    margin: 10px;
 }
 
 
@@ -50,5 +58,17 @@ p {
 }
 
 .jacket-card {
-    border: 0 !important;
+    border: none !important;
+}
+
+.jacket-card-footer {
+    background-color: white;
+    border-top: none !important;
+}
+
+.jacket-card img {
+    height: 334px;
+    width: 100%;
+    background: #F1F1F1;
+    border-radius: 20px;
 }
