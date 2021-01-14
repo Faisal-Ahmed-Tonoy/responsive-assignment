@@ -19,12 +19,15 @@ h2 {
     font-family: 'Bebas Neue', cursive;
 }
 
-h4 {
-    text-transform: none;
-}
-
 h5 {
     display: inline-block;
+    padding-right: 76px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #fabe4c !important;
 }
 
 p {
@@ -63,9 +66,9 @@ p {
 /* Header Seaction Menu*/
 
 .navmenu {
-    font-size: 25px;
+    font-size: 22px;
     color: #3C3C3C !important;
-    padding-right: 8px !important;
+    padding-right: 2px !important;
 }
 
 .navmenu:hover {
