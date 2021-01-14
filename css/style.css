@@ -76,9 +76,9 @@ p {
 /* Header Seaction Menu*/
 
 .navmenu {
-    font-size: 22px;
+    font-size: 14px;
     color: #3C3C3C !important;
-    padding-right: px !important;
+    padding-right: 24px !important;
 }
 
 .navmenu:hover {
@@ -110,13 +110,36 @@ p {
 }
 
 
-/*About  Section
+/*About  Section*/
 
 .about img {
-    width: 100%;
+    width: 62px;
+    height: 72px;
+    margin: 0;
 }
-*/
 
 footer {
     background-color: #A4BC46;
+}
+
+.about-text h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 0px;
+}
+
+.about-text p {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#contactus {
+    background-color: #363958;
+    height: 280px;
+}
+
+#contactus p {
+    color: white;
 }
