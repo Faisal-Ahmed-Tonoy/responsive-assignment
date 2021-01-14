@@ -6,6 +6,9 @@ body {
     text-transform: none;
 }
 
+
+/* Common Sections*/
+
 h1 {
     font-weight: bold;
     font-size: 60px;
@@ -63,18 +66,28 @@ p {
 }
 
 
+/* Home Seaction */
+
+.penguins {
+    color: #fabe4c;
+}
+
+
 /* Header Seaction Menu*/
 
 .navmenu {
     font-size: 22px;
     color: #3C3C3C !important;
-    padding-right: 2px !important;
+    padding-right: px !important;
 }
 
 .navmenu:hover {
-    background-color: rgb(207, 220, 163);
-    border-radius: #A4BC46;
+    background-color: #A4BC46;
+    border-radius: 10px;
 }
+
+
+/*Jacket Card Section*/
 
 .jacket-card {
     border: none !important;
@@ -92,13 +105,18 @@ p {
     border-radius: 20px;
 }
 
-.jacket-card img:nth-child(2) {
-    height: 3px;
-    width: 100%;
-    background: #F1F1F1;
-    border-radius: 20px;
-}
-
 .jacket-card-height img {
     padding: 30px;
+}
+
+
+/*About  Section
+
+.about img {
+    width: 100%;
+}
+*/
+
+footer {
+    background-color: #A4BC46;
 }
