@@ -1,14 +1,30 @@
 body {
     background-color: FFFBF0;
     font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
     color: #363958;
+    text-transform: none;
 }
 
 h1 {
     font-weight: bold;
     font-size: 60px;
     line-height: 64px;
-    ;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 48px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h4 {
+    text-transform: none;
+}
+
+h5 {
+    display: inline-block;
 }
 
 p {
@@ -71,4 +87,15 @@ p {
     width: 100%;
     background: #F1F1F1;
     border-radius: 20px;
+}
+
+.jacket-card img:nth-child(2) {
+    height: 3px;
+    width: 100%;
+    background: #F1F1F1;
+    border-radius: 20px;
+}
+
+.jacket-card-height img {
+    padding: 30px;
 }
